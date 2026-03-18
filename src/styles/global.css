@@ -5,4 +5,9 @@
     --color-gold: #FFF7D3;
     --color-darkgold: #A29D84;
     --color-footer: #000824;
+    --color-hero: #000F42;
+}
+
+html {
+    color: var(--color-gold);
 }
