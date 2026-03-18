@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #000C44;
+    --color-gold: #FFF7D3;
+    --color-darkgold: #A29D84;
+    --color-footer: #000824;
+}
