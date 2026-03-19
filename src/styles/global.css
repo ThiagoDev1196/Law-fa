@@ -11,3 +11,13 @@
 html {
     color: var(--color-gold);
 }
+
+/* Border gradient for service cards */
+.border-gradient {
+    background:
+        linear-gradient(var(--color-primary), var(--color-primary)) padding-box,
+        linear-gradient(135deg, var(--color-gold), var(--color-darkgold)) border-box;
+
+    border: 2px solid transparent;
+    border-radius: 12px;
+}

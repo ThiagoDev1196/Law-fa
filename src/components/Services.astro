@@ -1,0 +1,27 @@
+---
+import ServiceCard from "./ServiceCard.astro";
+---
+
+<section class="bg-[url('/section-pics/services-bg.jpg')] bg-primary/50 bg-blend-multiply bg-center pt-10">
+
+    <h3 class="text-4xl text-center font-bold sm:text-5xl pb-8 md:pb-12">Services we offer</h3>
+
+  <div class="services-container flex flex-col items-center justify-center p-4 space-y-6 md:flex-row md:space-x-4 md:items-start xl:space-x-8">
+
+    <ServiceCard
+      service="Civil Law"
+      img="/section-pics/civil.jpg"
+      description="Contracts, inheritance and wealth management"
+    />
+    <ServiceCard
+      service="Criminal Law"
+      img="/section-pics/criminal.jpg"
+      description="Defense in criminal proceedings and legal advice"
+    />
+    <ServiceCard
+      service="Labor Law"
+      img="/section-pics/labor.jpg"
+      description="Business consulting, dismissals and wage claims"
+    />
+  </div>
+</section>
