@@ -1,0 +1,36 @@
+---
+import WhyChooseCard from "./WhyChooseCard.astro";
+---
+
+<section
+  class="bg-[url('/section-pics/why-bg.jpg')] bg-black/50 bg-blend-multiply bg-cover bg-center p-4 flex flex-col items-center justify-center"
+>
+  <h3 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-center py-4 lg:py-8">
+    Why choose <b class="text-blue-600">us</b>
+  </h3>
+
+  <div class="grid grid-cols-1 gap-4 pt-2 sm:grid-cols-2 lg:gap-8 ">
+    <WhyChooseCard
+      picture="/section-pics/cases.png"
+      number="+500"
+      label="solved cases"
+      description="Hundreds of complex cases resolved with favorable results. Your peace of mind is our track record."
+    />
+    <WhyChooseCard
+      picture="/section-pics/lawyers.png"
+      number="+350"
+      label="expert lawyers"
+      description="A powerhouse of specialized legal minds ready to protect your interests, no matter the challenge."
+    />
+    <WhyChooseCard
+      picture="/section-pics/quality.png"
+      title="High quality"
+      description="We don't just provide advice; we deliver precise, high-standard legal strategies tailored to you."
+    />
+    <WhyChooseCard
+      picture="/section-pics/honesty.png"
+      title="Total honesty"
+      description="No hidden agendas. We provide clear, honest expectations about your case from day one."
+    />
+  </div>
+</section>

@@ -4,7 +4,7 @@ const { service, img, description } = Astro.props;
 
 <div class="service-card border-gradient bg-primary  items-center flex flex-col text-center justify-center space-y-2 w-70 h-60
  md:w-58 md:h-60 lg:w-76 lg:h-70 xl:w-100 xl:h-98 xl:space-y-8 ">
-    <h3 class="font-semibold text-2xl lg:text-3xl">{service}</h3>
     <img class="w-full h-30 object-cover lg:h-36 xl:h-48" src={img} alt={`${service} image`} />
+    <h3 class="font-semibold text-2xl lg:text-3xl">{service}</h3>
     <p class="text-white md:p-1 lg:text-lg xl:text-xl">{description}</p>
 </div>

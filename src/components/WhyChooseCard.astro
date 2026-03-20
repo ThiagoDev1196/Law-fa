@@ -1,0 +1,18 @@
+---
+const { picture, number, label, title, description } = Astro.props;
+
+const hasNumber = number !== undefined && number !== null;
+const cardTitle = title ?? (hasNumber ? `${number} ${label ?? ""}`.trim() : "");
+---
+
+<div class="card flex flex-col items-center justify-center space-y-4 border-2 w-72 h-72 md:w-82 md:h-82 xl:w-96 xl:h-96 border-gold p-6 rounded-lg bg-hero">
+    <img src={picture} alt={cardTitle} class="w-20 h-20 md:w-24 md:h-24 xl:w-28 xl:h-28" />
+    <h3 class="text-xl font-bold md:text-2xl ">
+        {hasNumber ? (
+            <><span class="text-blue-400">{number}</span>{label ? ` ${label}` : ""}</>
+        ) : (
+            cardTitle
+        )}
+    </h3>
+    <p class="text-white md:text-lg xl:text-xl">{description}</p>
+</div>
