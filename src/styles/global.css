@@ -26,9 +26,9 @@ html {
     border-radius: 12px;
 }
 
-.border-gradientAbout {
+.border-card {
     background:
-        linear-gradient(var(--color-about), var(--color-about)) padding-box,
+        linear-gradient(var(--color-layout), var(--color-layout)) padding-box,
         linear-gradient(135deg, var(--color-gold), var(--color-darkgold)) border-box;
 
     border: 2px solid transparent;
