@@ -4,10 +4,11 @@
     --color-primary: #000C44;
     --color-gold: #FFF7D3;
     --color-darkgold: #A29D84;
-    --color-footer: #000824;
+    --color-layout: #000824;
     --color-hero: #000F42;
     --color-about: #000B3E;
     --color-clients: #001353;
+    --color-footertitle: #867F64;
 }
 
 html {

@@ -10,7 +10,7 @@ function Nav() {
 
     return (
 
-    <nav className="nav__container flex flex-col bg-primary text-gold items-start md:items-end  fixed  w-full z-30">
+    <nav className="nav__container flex flex-col bg-layout text-gold items-start md:items-end  fixed  w-full z-30">
 
           <div className="nav__image flex flex-row items-center justify-center  p-4 md:hidden">
            <button className="xl:hidden text-xl " onClick={toggleMenu} id="menu-open" aria-label="Open navegation menu">☰</button>
