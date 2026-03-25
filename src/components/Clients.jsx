@@ -45,7 +45,7 @@ function Clients() {
 
   
     return (
-        <section className="clients-container bg-clients flex flex-col items-center justify-center p-4 gap-4">
+        <section id="clients" className="scroll-mt-10 md:scroll-mt-16 clients-container bg-clients flex flex-col items-center justify-center p-4 gap-4">
             
             <h3 className="text-4xl font-bold text-center py-5 sm:text-5xl lg:text-6xl">What our clients said</h3>
 
