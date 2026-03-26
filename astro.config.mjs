@@ -11,5 +11,8 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+
+  site: 'https://ThiagoDev1196.github.io',
+  base: '/law-fa', 
 });
