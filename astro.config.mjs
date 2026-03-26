@@ -14,5 +14,5 @@ export default defineConfig({
   },
 
   site: 'https://ThiagoDev1196.github.io',
-  base: '/law-fa', 
+  base: '/Law-fa', 
 });
